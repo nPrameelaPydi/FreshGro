@@ -1,0 +1,100 @@
+* {
+    background-color: #E5F9DB;
+}
+
+#site-name {
+    color: green;
+    text-align: center;
+}
+
+nav {
+    padding-right: 120px;
+    background-color: #83764F;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #83764F;
+}
+
+ul p {
+    color: whitesmoke;
+    background-color: #83764F;
+    font-style: normal;
+    font-size: x-large;
+    padding-top: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 0px;
+
+}
+
+
+footer {
+    background-color: #83764F;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+   
+    text-decoration: none;
+    background-color: #83764F;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-item>a:hover {
+    background-color: #40513B;
+}
+
+svg {
+    background-color: #83764F;
+}
+
+#cart-label {
+    padding-right: 5px;
+}
+
+#cart-icon-a {
+    padding-left: 5px;
+}
+
+img {
+    height: 600px;
+    width: 1000px;
+
+}
+
+.produce-image {
+    /*width: 1400px;
+    height: 1000px;*/
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: brown;
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer-div {
+    text-align: center;
+}
